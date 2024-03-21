@@ -1,0 +1,48 @@
+.schedule-container {
+    background-color: #fc6293;
+    padding: 2rem 0;
+  }
+  
+  .schedule-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .schedule-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .schedule-subtitle {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .schedule-input {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .schedule-button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: #ff407d;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .schedule-button:hover {
+    background-color: #ff407d;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }

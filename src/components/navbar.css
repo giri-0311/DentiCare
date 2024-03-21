@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: fixed;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    margin-left: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #ff4d4d;
+    color: #ffffff;
+  }
+
+  .MuiAppBar-root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .MuiAppBar-root.MuiAppBar-positionStatic {
+    box-shadow: none;
+  }
+  
+  .MuiToolbar-root {
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .MuiButton-root {
+    margin-left: 1rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .MuiButton-root:hover {
+    background-color: rgba(255, 64, 125, 0.1);
+  }
+  
+  .MuiTypography-root {
+    margin: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .MuiToolbar-root {
+      flex-direction: column;
+    }
+  
+    .montserrat {
+      flex-basis: 100%;
+      order: 1;
+      margin: 1rem 0;
+    }
+  
+    .MuiButton-root {
+      order: 2;
+      flex-shrink: 0;
+      margin-bottom: 1rem;
+      flex-direction: row;
+    }
+  }
